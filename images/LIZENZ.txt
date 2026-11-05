@@ -1,0 +1,3 @@
+Fischgrafiken: Twemoji von Twitter, Inc. und weiteren Mitwirkenden, Lizenz CC-BY 4.0
+https://github.com/twitter/twemoji
+Gespiegelt und auf 64x64 Pixel verkleinert.
