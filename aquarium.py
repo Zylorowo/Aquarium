@@ -4,7 +4,7 @@ import random
 punkte = 0
 WIDTH = 800
 HEIGHT = 500
-timer = 20
+timer = 30
 
 
 fish = Actor("fish", (109, 100))
@@ -66,10 +66,6 @@ def draw():
 
     if timer < 0.1:
         game.draw()
-#        screen.draw.text("Punkte: " + str(timer),
- #                        (200, 150),
-  #                       color="white",
-   #                      fontsize=30)
 
 
 
