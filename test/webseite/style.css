@@ -1,0 +1,26 @@
+
+
+  body {
+    margin: 0;
+    background: #073b63;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+
+
+
+  background-color: #ffffff;
+  color: #0A4678;
+  font-family: Arial, sans-serif;
+
+
+}
+
+canvas {
+    border: 3px solid white;
+}
+
+
+/* Hier kommen deine eigenen Regeln hin */

@@ -1,59 +1,44 @@
+
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <title>Mein Aquarium</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0a4678">
+    <title>Aquarium – Das Spiel</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h1>TEST</h1>
+    <main class="container">
+        <h1>🐠 Mein Aquarium</h1>
 
-   <img src="webseite1.png" width="360" height="200" >
+        <p class="description">
+            Fange die Fische und sammle Punkte!
+            Pass auf die Müllsäcke auf und klicke nicht ins Wasser.
+            Du hast 30 Sekunden Zeit.
+        </p>
 
-   <p><strong> Spielprinzip ist simpel: Man versucht, die Fische anzuklicken. Dafür bekommt man Punkte.
-<br>
-<br>
-Diese Punkte kann man aber auch verlieren, wenn man zum Beispiel ins Wasser klickt oder auf einen Müllsack.
-<br>
-<br>
-Verschiedene Objekte geben unterschiedlich viele Punkte. Der Müllsack gibt zum Beispiel -10 Punkte.
-<br>
-<br>
-Die Fische bewegen sich verschieden schnell und geben auch unterschiedlich viele Punkte. Der Hai ist der schnellste und gibt +5 Punkte.
-<br>
-<br>
-Der ganz normale Fisch gibt nur 0,5 Punkte. Die Geschwindigkeit ist natürlich auf die Punktanzahl abgestimmt. 
-<br>
-<br>
-Es ist in Python geschrieben. Ihr könnt es euch selbst über GitHub herunterladen und testen. (^^)
-<br>
-<br>
-<a href="https://www.youtube.com/watch?v=a7Lq6ZlSqys&t=1s">https://github.com/Zylorowo/Aquarium</a>
-<br>
-<br>
-oder wenns nicht funktionirt 
-<br>
-<br>
-<a href="https://github.com/Zylorowo/Aquarium">https://github.com/Zylorowo/Aquarium</a>
-<br>
-<br>
-Oder schneller 
-<br>
-<br>
-<img src="webseite4.png" width="180" height="100" >
+        <div class="game-container">
+            <canvas
+                id="game"
+                width="800"
+                height="500"
+                aria-label="Aquarium-Spiel. Klicke auf Fische, um Punkte zu sammeln."
+            ></canvas>
+        </div>
 
+        <div class="instructions">
+            <p>🐟 Normaler Fisch: +0,5 Punkte</p>
+            <p>🐡 Kugelfisch: +1 Punkt</p>
+            <p>🦈 Hai: +5 Punkte</p>
+            <p>🗑️ Müllsack: -10 Punkte</p>
+            <p>💧 Wasser: -1 Punkt</p>
+        </div>
 
-
-
-
- <canvas id="game" width="800" height="500"></canvas>
+        <button id="restart" type="button">Spiel neu starten</button>
+    </main>
 
     <script src="game.js"></script>
-
-    
-
-</strong> </p>
-  <!-- Hier kommt dein Inhalt hin -->
 </body>
 </html>
